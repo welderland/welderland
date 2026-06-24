@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: HomePageProps): Promise<Metad
   const { locale } = await params;
   const dict = getDictionary(locale as Locale);
   return {
-    title: `WeldHub — ${dict.home.heroTitle}`,
+    title: `Welderland — ${dict.home.heroTitle}`,
     description: dict.home.heroSubtitle,
   };
 }

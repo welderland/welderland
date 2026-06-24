@@ -23,7 +23,7 @@ export function Header({ locale }: HeaderProps) {
             W
           </span>
           <span className="text-lg font-semibold tracking-tight text-slate-900">
-            WeldHub
+            Welderland
           </span>
         </Link>
 

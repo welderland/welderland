@@ -16,7 +16,7 @@ export function Footer({ locale }: FooterProps) {
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <span className="text-lg font-semibold tracking-tight text-slate-900">
-              WeldHub
+              Welderland
             </span>
             <p className="mt-2 max-w-sm text-sm text-slate-600">{dict.footer.tagline}</p>
           </div>
@@ -62,7 +62,7 @@ export function Footer({ locale }: FooterProps) {
         </div>
 
         <div className="mt-8 border-t border-slate-200 pt-6 text-xs text-slate-500">
-          © {year} WeldHub. {dict.footer.rights}
+          © {year} Welderland. {dict.footer.rights}
         </div>
       </div>
     </footer>

@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: welderland/welderland
+  branch: main
+
+media_folder: "public/images/articles"
+public_folder: "/images/articles"
+
+i18n:
+  structure: multiple_files
+  locales: [id, en]
+  default_locale: id
+
+collections:
+  - name: "articles"
+    label: "Artikel"
+    folder: "src/content/articles"
+    create: true
+    path: "{{pillar}}/{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Judul", name: "title", widget: "string", i18n: true }
+      - { label: "Slug (untuk URL)", name: "slug", widget: "string" }
+      - label: "Pilar"
+        name: "pillar"
+        widget: "select"
+        options: ["fabrication", "technology", "training"]
+      - { label: "Ringkasan Singkat", name: "excerpt", widget: "text", i18n: true }
+      - { label: "Tanggal Publish", name: "publishedAt", widget: "date" }
+      - { label: "Estimasi Waktu Baca (menit)", name: "readingTimeMinutes", widget: "number" }
+      - { label: "Meta Title (SEO)", name: "metaTitle", widget: "string", i18n: true }
+      - { label: "Meta Description (SEO)", name: "metaDescription", widget: "text", i18n: true }
+      - { label: "Tool Terkait", name: "relatedTool", widget: "string", required: false }
+      - { label: "Isi Artikel", name: "body", widget: "markdown", i18n: true }

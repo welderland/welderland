@@ -2,7 +2,7 @@ backend:
   name: github
   repo: welderland/welderland
   branch: main
-
+  base_url: https://welderland-cms-oauth.vercel.app
 media_folder: "public/images/articles"
 public_folder: "/images/articles"
 

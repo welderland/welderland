@@ -25,12 +25,18 @@ export async function renderMarkdown(markdown: string): Promise<string> {
 export function getArticle(pillar: Pillar, slug: string, locale: Locale): Article | null {
   const filePath = articleFilePath(pillar, slug, locale);
   if (!fs.existsSync(filePath)) return null;
-
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
+  const frontmatter = data as ArticleFrontmatter;
+
+  // Fallback: kalau Meta Title/Description kosong di CMS, pakai Judul/Ringkasan
+  const metaTitle = frontmatter.metaTitle?.trim() || frontmatter.title;
+  const metaDescription = frontmatter.metaDescription?.trim() || frontmatter.excerpt;
 
   return {
-    ...(data as ArticleFrontmatter),
+    ...frontmatter,
+    metaTitle,
+    metaDescription,
     content,
   };
 }

@@ -1,7 +1,7 @@
 ---
 title: Ferrite Number (FN) pada material Stainless Steel  (316L).
 slug: ferrite-number-pada-material-stainless-steel
-pillar: fabrication
+pillar: technology
 excerpt: Apa itu Ferrite Number (FN) pada material Stainless Steel  (316L) dan
   kaitannya dengan pengelasan.
 readingTimeMinutes: 60

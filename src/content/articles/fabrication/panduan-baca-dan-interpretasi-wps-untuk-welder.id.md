@@ -23,7 +23,7 @@ Tanpa pemahaman yang baik tentangWPS, risiko kegagalan las, pengerjaan ulang (re
 
 Welding Procedure Specification(WPS) adalah dokumen formal tertulis yang berisi instruksi rinci dan parameteruntuk menghasilkan lasan yang konsisten dan berkualitas tinggi. WPSmendefinisikan variabel-variabel penting yang diperlukan untuk operasipengelasan spesifik, termasuk parameter listrik, logam dasar, logam pengisi,desain sambungan, suhu pemanasan awal (preheat), dan kontrol proses kritislainnya .
 
-WPS selalu didukung oleh ProcedureQualification Record (PQR atau WPQR). PQR adalah catatan uji yang memverifikasibahwa prosedur pengelasan tertentu dapat secara konsisten menghasilkan lasanyang sesuai kode . Singkatnya:
+WPS selalu didukung oleh Procedure Qualification Record (PQR atau WPQR). PQR adalah catatan uji yang memverifikasibahwa prosedur pengelasan tertentu dapat secara konsisten menghasilkan lasanyang sesuai kode . Singkatnya:
 
 \- WPS = Buku panduan untuk pengelasan produksi
 
@@ -146,11 +146,8 @@ Kesalahan Umum dalam Membaca WPS
 Berdasarkan pengalaman di lapangan, berikut kesalahan yangsering terjadi:
 
 1. Mengabaikan suhu preheat dan interpass - Ini adalahpenyebab utama retak pada lasan 
-
 2. Tidak memperhatikan modetransfer metal untuk GMAW - Spray arc dan short circuiting memilikikarakteristik yang sangat berbeda
-
 3. Mengabaikan rentang ampere danvoltase - Welder sering menggunakan parameter di luar rentang yang diizinkan
-
 4. Tidak mengecek kompatibilitasantara filler metal dan base metal - Kombinasi yang salah dapat menyebabkankegagalan
 
 Kesimpulan: WPS adalah Sahabat, Bukan Musuh

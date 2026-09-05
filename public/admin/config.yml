@@ -26,6 +26,7 @@ collections:
         widget: "select"
         options: ["fabrication", "technology", "training"]
       - { label: "Ringkasan Singkat", name: "excerpt", widget: "text", i18n: true }
+      - { label: "Gambar Sampul", name: "coverImage", widget: "image", required: false }
       - { label: "Tanggal Publish", name: "publishedAt", widget: "date" }
       - { label: "Estimasi Waktu Baca (menit)", name: "readingTimeMinutes", widget: "number" }
       - { label: "Meta Title (SEO)", name: "metaTitle", widget: "string", i18n: true }

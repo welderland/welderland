@@ -1,14 +1,17 @@
 ---
-slug: "apa-itu-wps-pqr-wqtr"
-pillar: "fabrication"
-locale: "en"
-title: "What Are WPS, PQR, and WQTR? A Beginner's Guide"
-excerpt: "Three documents that often confuse new welders: WPS, PQR, and WQTR. This article explains the difference between them and how they relate."
-publishedAt: "2026-06-17"
+title: What Are WPS, PQR, and WQTR? A Beginner's Guide
+slug: apa-itu-wps-pqr-wqtr
+pillar: fabrication
+excerpt: "Three documents that often confuse new welders: WPS, PQR, and WQTR.
+  This article explains the difference between them and how they relate."
+publishedAt: 2026-06-17
 readingTimeMinutes: 5
-metaTitle: "What Are WPS, PQR, and WQTR? A Complete Beginner's Guide"
-metaDescription: "Learn the difference between WPS (Welding Procedure Specification), PQR (Procedure Qualification Record), and WQTR, and how they relate in the welding process."
-relatedTool: "wps-generator"
+metaTitle: What Are WPS, PQR, and WQTR? A Complete Beginner's Guide
+metaDescription: Learn the difference between WPS (Welding Procedure
+  Specification), PQR (Procedure Qualification Record), and WQTR, and how they
+  relate in the welding process.
+relatedTool: wps-generator
+locale: en
 ---
 
 For welders and fabricators new to formal project work, three terms keep showing up in project documentation: WPS, PQR, and WQTR. They're related, but each serves a different purpose. Understanding the difference matters — both for passing QC inspection and for understanding why a welding procedure is defined the way it is.

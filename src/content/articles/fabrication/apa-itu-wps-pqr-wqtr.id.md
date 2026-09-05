@@ -1,14 +1,23 @@
 ---
-slug: "apa-itu-wps-pqr-wqtr"
-pillar: "fabrication"
-locale: "id"
-title: "Apa itu WPS, PQR, dan WQTR? Penjelasan untuk Pemula"
-excerpt: "Tiga dokumen yang sering membingungkan welder baru: WPS, PQR, dan WQTR. Artikel ini menjelaskan perbedaan dan hubungan ketiganya secara sederhana."
-publishedAt: "2026-06-17"
+title: Apa itu WPS, PQR, dan WQTR? Penjelasan untuk Pemula
+slug: apa-itu-wps-pqr-wqtr
+pillar: fabrication
+excerpt: "Tiga dokumen yang sering membingungkan welder baru: WPS, PQR, dan
+  WQTR. Artikel ini menjelaskan perbedaan dan hubungan ketiganya secara
+  sederhana."
+publishedAt: 2026-06-17
 readingTimeMinutes: 5
-metaTitle: "Apa itu WPS, PQR, dan WQTR? Panduan Lengkap untuk Pemula"
-metaDescription: "Pelajari perbedaan WPS (Welding Procedure Specification), PQR (Procedure Qualification Record), dan WQTR, serta bagaimana ketiganya saling berhubungan dalam proses welding."
-relatedTool: "wps-generator"
+metaTitle: Apa itu WPS, PQR, dan WQTR? Panduan Lengkap untuk Pemula
+metaDescription: "Pelajari perbedaan WPS (Welding Procedure Specification), PQR
+  (Procedure Qualification Record), dan WQTR, serta bagaimana ketiganya saling
+  berhubungan dalam proses welding. Bagi welder atau fabricator yang baru masuk
+  ke dunia kerja formal, tiga istilah ini sering muncul di dokumen proyek: WPS,
+  PQR, dan WQTR. Ketiganya saling berhubungan, tapi punya fungsi yang berbeda.
+  Memahami perbedaannya penting — baik untuk lulus inspeksi QC, maupun untuk
+  memahami kenapa sebuah prosedur las harus mengikuti aturan tertentu..Lanjut
+  Baca"
+relatedTool: wps-generator
+locale: id
 ---
 
 Bagi welder atau fabricator yang baru masuk ke dunia kerja formal, tiga istilah ini sering muncul di dokumen proyek: WPS, PQR, dan WQTR. Ketiganya saling berhubungan, tapi punya fungsi yang berbeda. Memahami perbedaannya penting — baik untuk lulus inspeksi QC, maupun untuk memahami kenapa sebuah prosedur las harus mengikuti aturan tertentu.

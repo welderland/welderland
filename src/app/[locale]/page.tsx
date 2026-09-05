@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { getDictionary } from "@/i18n/dictionaries";
 import { getAllArticles } from "@/lib/articles";
@@ -79,18 +80,35 @@ export default async function HomePage({ params }: HomePageProps) {
             <h2 className="text-2xl font-semibold text-slate-900">{dict.nav.articles}</h2>
             <div className="mt-6 grid gap-6 sm:grid-cols-3">
               {latestArticles.map((article) => (
-                <Link
+                               <Link
                   key={article.slug}
                   href={`/${loc}/articles/${article.pillar}/${article.slug}`}
-                  className="rounded-lg border border-slate-200 bg-white p-5 transition hover:border-slate-400 hover:shadow-sm"
+                  className="overflow-hidden rounded-lg border border-slate-200 bg-white transition hover:border-slate-400 hover:shadow-sm"
                 >
-                  <p className="text-xs font-medium uppercase tracking-wide text-amber-600">
-                    {loc === "id"
-                      ? PILLARS.find((p) => p.id === article.pillar)?.labelId
-                      : PILLARS.find((p) => p.id === article.pillar)?.labelEn}
-                  </p>
-                  <h3 className="mt-2 font-semibold text-slate-900">{article.title}</h3>
-                  <p className="mt-2 text-sm text-slate-600">{article.excerpt}</p>
+                  <div className="relative aspect-[16/9] w-full bg-slate-100">
+                    {article.coverImage ? (
+                      <Image
+                        src={article.coverImage}
+                        alt={article.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center text-slate-300">
+                        <span className="text-xs">Welderland</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="p-5">
+                    <p className="text-xs font-medium uppercase tracking-wide text-amber-600">
+                      {loc === "id"
+                        ? PILLARS.find((p) => p.id === article.pillar)?.labelId
+                        : PILLARS.find((p) => p.id === article.pillar)?.labelEn}
+                    </p>
+                    <h3 className="mt-2 font-semibold text-slate-900">{article.title}</h3>
+                    <p className="mt-2 text-sm text-slate-600">{article.excerpt}</p>
+                  </div>
                 </Link>
               ))}
             </div>

@@ -22,7 +22,7 @@ metaDescription: "Pelajari perbedaan WPS (Welding Procedure Specification), PQR
 relatedTool: wps-generator
 locale: id
 ---
-![WPS & PQR ](gmaw.welding.af.ncs.jpg "Welder Welding")
+![WPS & PQR ]( "Welder Welding")
 
 Bagi welder atau fabricator yang baru masuk ke dunia kerja formal, tiga istilah ini sering muncul di dokumen proyek: WPS, PQR, dan WQTR. Ketiganya saling berhubungan, tapi punya fungsi yang berbeda. Memahami perbedaannya penting — baik untuk lulus inspeksi QC, maupun untuk memahami kenapa sebuah prosedur las harus mengikuti aturan tertentu.
 

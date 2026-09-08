@@ -12,7 +12,7 @@ excerpt: "Tiga dokumen yang sering membingungkan welder baru: WPS, PQR, dan
   Memahami perbedaannya penting — baik untuk lulus inspeksi QC, maupun untuk
   memahami kenapa sebuah prosedur las harus mengikuti aturan tertentu..Lanjut
   Baca"
-coverImage: ""
+coverImage: gmaw.welding.af.ncs.jpg
 publishedAt: 2026-06-17
 readingTimeMinutes: 5
 metaTitle: Apa itu WPS, PQR, dan WQTR? Panduan Lengkap untuk Pemula

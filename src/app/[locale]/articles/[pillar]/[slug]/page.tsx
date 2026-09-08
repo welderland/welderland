@@ -61,8 +61,13 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <h1 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">{article.title}</h1>
 
       <div className="mt-3 flex items-center gap-3 text-sm text-slate-500">
-        <span>
-          {dict.article.publishedOn} {article.publishedAt}
+         <span>
+  {dict.article.publishedOn}{" "}
+  {new Date(article.publishedAt).toLocaleDateString(loc === "id" ? "id-ID" : "en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })}
         </span>
         <span>·</span>
         <span>{dict.article.readingTime(article.readingTimeMinutes)}</span>

@@ -2,6 +2,7 @@
 title: What Are WPS, PQR, and WQTR? A Beginner's Guide
 slug: apa-itu-wps-pqr-wqtr
 pillar: fabrication
+coverImage: /images/articles/wps.jpg
 excerpt: "Three documents that often confuse new welders: WPS, PQR, and WQTR.
   This article explains the difference between them and how they relate."
 publishedAt: 2026-06-17

@@ -1,4 +1,5 @@
 ---
+coverImage: /images/articles/wps.jpg
 title: Complete Guide to Reading and Interpreting WPS for Welders
 excerpt: >-
   For a welder or welding inspector, the ability to read and interpret a Welding

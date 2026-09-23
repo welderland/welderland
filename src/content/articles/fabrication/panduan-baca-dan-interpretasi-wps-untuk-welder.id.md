@@ -2,6 +2,7 @@
 title: Panduan Baca dan Interpretasi WPS untuk Welder
 slug: panduan-baca-dan-interpretasi-wps-untuk-welder
 pillar: fabrication
+coverImage: /images/articles/wps.jpg
 excerpt: Bagi seorang welder atau welder inspector, kemampuan membaca dan
   menginterpretasi Welding Procedure Specification (WPS) adalah keterampilan
   yang tidak bisa ditawar. Bayangkan WPS sebagai "resep masakan" untuk
